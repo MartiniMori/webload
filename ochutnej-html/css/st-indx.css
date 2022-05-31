@@ -1,0 +1,74 @@
+
+body {
+    color:rgb(6, 3, 3);
+    background:rgb(30, 53, 77);
+    background: url(../images/mseno.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+    background-position: 56%;
+    width: 100%;
+}
+
+.nav {
+    
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 8px;    
+}
+
+h1, 
+strong,
+em{
+    color: rgb(23, 16, 3);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a:hover,
+a:active {
+    color:blueviolet
+}
+
+article{
+
+    border:1px solid rgb(92, 34, 58) ;
+    margin: 50px auto;    
+    padding: 50px;
+    max-width: 420px;
+}
+ol, 
+ul {
+    color: rgb(90, 77, 77);
+    font-size: 75% ;
+    text-align: left;
+
+}
+li.highlighted {
+    color:#450d0d;
+        }
+.chunky {
+    font-weight: bolder;
+    text-transform: uppercase;
+}        
+
+
+footer a:hover img,
+footer a:active img {
+    color: rgb(183, 245, 13);
+    
+    }
+footer img{
+    width: 200px;
+    border-radius: 38%;
+    border: 8px solid orange;   
